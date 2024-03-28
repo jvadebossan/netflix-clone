@@ -16,6 +16,8 @@
     font-size: 2rem;
     font-weight:700;
     flex:7;
+    color: var(--main);
+    text-decoration: none;
 }
 
 .nav{
@@ -30,7 +32,7 @@
     list-style: none;
 }
 
-.navList > li > a{
+.link{
     text-decoration: none;
     color: var(--text);
 }

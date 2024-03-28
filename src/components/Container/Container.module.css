@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    min-height: 500px;
+    min-height: calc(100vh - 70px);
     height: auto;
     background-color: var(--foreground);
     color: var(--text);

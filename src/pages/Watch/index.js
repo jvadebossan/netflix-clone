@@ -1,10 +1,17 @@
-import style from './Watch.module.css';
+import styles from './Watch.module.css';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Container from '../../components/Container';
 
 function Watch() {
   return (
-    <section className={style.watch}>
-        <h1>Watch</h1>
-    </section>
+    <>
+        <Header/>
+        <Container>
+
+        </Container>
+        <Footer/>
+    </>
   );
 }
 
