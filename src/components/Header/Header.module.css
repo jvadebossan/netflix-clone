@@ -1,0 +1,36 @@
+.header{
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    padding: 0px 50px;
+    background-color: var(--background);
+    border-bottom: 3px solid var(--main);
+    color: var(--main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title{
+    font-size: 2rem;
+    font-weight:700;
+    flex:7;
+}
+
+.nav{
+    flex:1;
+}
+
+.navList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navList > li > a{
+    text-decoration: none;
+    color: var(--text);
+}
